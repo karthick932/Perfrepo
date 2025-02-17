@@ -7,304 +7,6 @@ resources:
     dependencies: 
       - path: /PerformanceTestProject/src
         type: javaClasspath
-  - name: 'Compound Tests'
-    resources: 
-  - name: Datasets
-    resources: 
-  - name: 'JMeter Tests'
-    resources: 
-  - name: Locations
-    resources: 
-  - name: Results
-    resources: 
-      - name: JpetStore_1736760142388.stats
-        type: com.ibm.rational.test.lt.stats.session
-        properties: 
-          startTime: 1736760142388
-          tags: 
-          testId: A1EFD18FDA5B4DC0DAF5B93133613361
-          testName: JpetStore
-        dependencies: 
-          - path: /PerformanceTestProject/Results/JpetStore_1736760142388_orch!system.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/JpetStore_1736760142388_orch!system.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/JpetStore_1736760142388_perf!localhost.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/JpetStore_1736760142388_perf!localhost.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/JpetStore_1736760142644.executiondlr
-            type: statsSessionAsset
-          - path: /PerformanceTestProject/Tests/JpetStore.testsuite
-            type: statsSessionTest
-      - name: JpetStore_1736760142388_orch!system.mstats
-      - name: JpetStore_1736760142388_orch!system.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: JpetStore_1736760142388_perf!localhost.mstats
-      - name: JpetStore_1736760142388_perf!localhost.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: JpetStore_1736760142644.executiondlr
-      - name: JpetStore_1736760196167.stats
-        type: com.ibm.rational.test.lt.stats.session
-        properties: 
-          startTime: 1736760196167
-          tags: 
-          testId: A1EFD18FDA5B4DC0DAF5B93133613361
-          testName: JpetStore
-        dependencies: 
-          - path: /PerformanceTestProject/Results/JpetStore_1736760196167_orch!system.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/JpetStore_1736760196167_orch!system.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/JpetStore_1736760196167_perf!localhost.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/JpetStore_1736760196167_perf!localhost.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/JpetStore_1736760196403.executiondlr
-            type: statsSessionAsset
-          - path: /PerformanceTestProject/Tests/JpetStore.testsuite
-            type: statsSessionTest
-      - name: JpetStore_1736760196167_orch!system.mstats
-      - name: JpetStore_1736760196167_orch!system.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: JpetStore_1736760196167_perf!localhost.mstats
-      - name: JpetStore_1736760196167_perf!localhost.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: JpetStore_1736760196403.executiondlr
-      - name: PerfTestScript_1736758896538.stats
-        type: com.ibm.rational.test.lt.stats.session
-        properties: 
-          startTime: 1736758896538
-          tags: 
-          testId: A1EFD18CF1A1BCB0DAF5B93133613361
-          testName: PerfTestScript
-        dependencies: 
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758896538_orch!system.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758896538_orch!system.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758896538_perf!localhost.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758896538_perf!localhost.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Tests/PerfTestScript.testsuite
-            type: statsSessionTest
-      - name: PerfTestScript_1736758896538_orch!system.mstats
-      - name: PerfTestScript_1736758896538_orch!system.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736758896538_perf!localhost.mstats
-      - name: PerfTestScript_1736758896538_perf!localhost.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736758896683.stats
-        type: com.ibm.rational.test.lt.stats.session
-        properties: 
-          startTime: 1736758896683
-          tags: 
-          testId: A1EFD18CF1A1BCB0DAF5B93133613361
-          testName: PerfTestScript
-        dependencies: 
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758896683_orch!system.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758896683_orch!system.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758896683_perf!localhost.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758896683_perf!localhost.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758897918.executiondlr
-            type: statsSessionAsset
-          - path: /PerformanceTestProject/Tests/PerfTestScript.testsuite
-            type: statsSessionTest
-      - name: PerfTestScript_1736758896683_orch!system.mstats
-      - name: PerfTestScript_1736758896683_orch!system.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736758896683_perf!localhost.mstats
-      - name: PerfTestScript_1736758896683_perf!localhost.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736758897918.executiondlr
-      - name: PerfTestScript_1736758924094.stats
-        type: com.ibm.rational.test.lt.stats.session
-        properties: 
-          startTime: 1736758924094
-          tags: 
-          testId: A1EFD18CF1A1BCB0DAF5B93133613361
-          testName: PerfTestScript
-        dependencies: 
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758924094_orch!system.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758924094_orch!system.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758924094_perf!localhost.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758924094_perf!localhost.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Tests/PerfTestScript.testsuite
-            type: statsSessionTest
-      - name: PerfTestScript_1736758924094_orch!system.mstats
-      - name: PerfTestScript_1736758924094_orch!system.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736758924094_perf!localhost.mstats
-      - name: PerfTestScript_1736758924094_perf!localhost.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736758972021.stats
-        type: com.ibm.rational.test.lt.stats.session
-        properties: 
-          startTime: 1736758972021
-          tags: 
-          testId: A1EFD18CF1A1BCB0DAF5B93133613361
-          testName: PerfTestScript
-        dependencies: 
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758972021_orch!system.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758972021_orch!system.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758972021_perf!localhost.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736758972021_perf!localhost.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Tests/PerfTestScript.testsuite
-            type: statsSessionTest
-      - name: PerfTestScript_1736758972021_orch!system.mstats
-      - name: PerfTestScript_1736758972021_orch!system.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736758972021_perf!localhost.mstats
-      - name: PerfTestScript_1736758972021_perf!localhost.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736759686386.stats
-        type: com.ibm.rational.test.lt.stats.session
-        properties: 
-          startTime: 1736759686386
-          tags: 
-          testId: A1EFD18CF1A1BCB0DAF5B93133613361
-          testName: PerfTestScript
-        dependencies: 
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736759686386_orch!system.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736759686386_orch!system.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736759686386_perf!localhost.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736759686386_perf!localhost.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736759686663.executiondlr
-            type: statsSessionAsset
-          - path: /PerformanceTestProject/Tests/PerfTestScript.testsuite
-            type: statsSessionTest
-      - name: PerfTestScript_1736759686386_orch!system.mstats
-      - name: PerfTestScript_1736759686386_orch!system.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736759686386_perf!localhost.mstats
-      - name: PerfTestScript_1736759686386_perf!localhost.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736759686663.executiondlr
-      - name: PerfTestScript_1736759759031.stats
-        type: com.ibm.rational.test.lt.stats.session
-        properties: 
-          startTime: 1736759759031
-          tags: 
-          testId: A1EFD18CF1A1BCB0DAF5B93133613361
-          testName: PerfTestScript
-        dependencies: 
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736759759031_orch!system.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736759759031_orch!system.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736759759031_perf!localhost.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736759759031_perf!localhost.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736759759281.executiondlr
-            type: statsSessionAsset
-          - path: /PerformanceTestProject/Tests/PerfTestScript.testsuite
-            type: statsSessionTest
-      - name: PerfTestScript_1736759759031_orch!system.mstats
-      - name: PerfTestScript_1736759759031_orch!system.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736759759031_perf!localhost.mstats
-      - name: PerfTestScript_1736759759031_perf!localhost.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736759759281.executiondlr
-      - name: PerfTestScript_1736761800071.stats
-        type: com.ibm.rational.test.lt.stats.session
-        properties: 
-          startTime: 1736761800071
-          tags: 
-          testId: A1EFD18CF1A1BCB0DAF5B93133613361
-          testName: PerfTestScript
-        dependencies: 
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736761800071_orch!system.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736761800071_orch!system.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736761800071_perf!localhost.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736761800071_perf!localhost.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/PerfTestScript_1736761800509.executiondlr
-            type: statsSessionAsset
-          - path: /PerformanceTestProject/Tests/PerfTestScript.testsuite
-            type: statsSessionTest
-      - name: PerfTestScript_1736761800071_orch!system.mstats
-      - name: PerfTestScript_1736761800071_orch!system.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736761800071_perf!localhost.mstats
-      - name: PerfTestScript_1736761800071_perf!localhost.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: PerfTestScript_1736761800509.executiondlr
-      - name: VuSchedule_1736761299239.stats
-        type: com.ibm.rational.test.lt.stats.session
-        properties: 
-          startTime: 1736761299239
-          tags: 
-          testId: A1EFD190A5C98D00C55DE36362366564
-          testName: VuSchedule
-        dependencies: 
-          - path: /PerformanceTestProject/Results/VuSchedule_1736761299239_orch!system.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/VuSchedule_1736761299239_orch!system.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/VuSchedule_1736761299239_perf!localhost.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/VuSchedule_1736761299239_perf!localhost.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/VuSchedule_1736761306714.executiondlr
-            type: statsSessionAsset
-          - path: /PerformanceTestProject/Schedules/VuSchedule.testsuite
-            type: statsSessionTest
-      - name: VuSchedule_1736761299239_orch!system.mstats
-      - name: VuSchedule_1736761299239_orch!system.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: VuSchedule_1736761299239_perf!localhost.mstats
-      - name: VuSchedule_1736761299239_perf!localhost.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: VuSchedule_1736761306714.executiondlr
-      - name: VuSchedule_1736761840919.stats
-        type: com.ibm.rational.test.lt.stats.session
-        properties: 
-          startTime: 1736761840919
-          tags: 
-          testId: A1EFD190A5C98D00C55DE36362366564
-          testName: VuSchedule
-        dependencies: 
-          - path: /PerformanceTestProject/Results/VuSchedule_1736761840919_orch!system.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/VuSchedule_1736761840919_orch!system.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/VuSchedule_1736761840919_perf!localhost.mstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/VuSchedule_1736761840919_perf!localhost.rstats
-            type: statsSessionStore
-          - path: /PerformanceTestProject/Results/VuSchedule_1736761847735.executiondlr
-            type: statsSessionAsset
-          - path: /PerformanceTestProject/Schedules/VuSchedule.testsuite
-            type: statsSessionTest
-      - name: VuSchedule_1736761840919_orch!system.mstats
-      - name: VuSchedule_1736761840919_orch!system.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: VuSchedule_1736761840919_perf!localhost.mstats
-      - name: VuSchedule_1736761840919_perf!localhost.rstats
-        type: com.ibm.rational.test.lt.stats.raw
-      - name: VuSchedule_1736761847735.executiondlr
   - name: Schedules
     resources: 
       - name: VuSchedule.testsuite
@@ -378,15 +80,59 @@ User Group 2: Group Size 50.0 percent
         dependencies: 
           - path: /PerformanceTestProject/Tests/PerfTestScript.recsession
             type: testRecsession
+      - name: latestuiscript.recdata
+      - name: latestuiscript.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /PerformanceTestProject/Tests/latestuiscript.recdata
+            type: recsessionRecdata
+      - name: latestuiscript.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.4.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EFECF6F0CECF50F45FB03136313931
+        dependencies: 
+          - path: /PerformanceTestProject/Tests/latestuiscript.recsession
+            type: testRecsession
+          - path: /PerformanceTestProject/pectran_com_5e8.ma
+            type: test#moeb.applicationPackage
+  - name: latestuiscript_1739773133824.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1739773133824
+      tags: 
+      testId: A1EFECF6F0CECF50F45FB03136313931
+      testName: latestuiscript
+    dependencies: 
+      - path: /PerformanceTestProject/Tests/latestuiscript.testsuite
+        type: statsSessionTest
+      - path: /PerformanceTestProject/latestuiscript_1739773133824.xmoebreport
+        type: statsSessionAsset
+      - path: /PerformanceTestProject/latestuiscript_1739773133824_orch!system.mstats
+        type: statsSessionStore
+      - path: /PerformanceTestProject/latestuiscript_1739773133824_orch!system.rstats
+        type: statsSessionStore
+      - path: /PerformanceTestProject/latestuiscript_1739773133824_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /PerformanceTestProject/latestuiscript_1739773133824_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /PerformanceTestProject/latestuiscript_1739773134199.executiondlr
+        type: statsSessionAsset
+  - name: latestuiscript_1739773133824.xmoebreport
+  - name: latestuiscript_1739773133824_orch!system.mstats
+  - name: latestuiscript_1739773133824_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: latestuiscript_1739773133824_perf!localhost.mstats
+  - name: latestuiscript_1739773133824_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: latestuiscript_1739773134199.executiondlr
+  - name: pectran_com_5e8.ma
+    type: moeb.applicationPackage
   - name: src
     resources: 
       - name: test
         resources: 
-          - name: Copy_of_JpetStore_Test_A1EFD1927E407BE8C55DE36362366564.java
-            type: com.ibm.rational.test.lt.generatedCode
-          - name: JpetStore_Test_A1EFD18FDA5B4DC0DAF5B93133613361.java
-            type: com.ibm.rational.test.lt.generatedCode
-          - name: PerfTestScript_Test_A1EFD18CF1A1BCB0DAF5B93133613361.java
-            type: com.ibm.rational.test.lt.generatedCode
-          - name: VuSchedule_Schedule_A1EFD190A5C98D00C55DE36362366564.java
+          - name: Latestuiscript_Test_A1EFECF6F0CECF50F45FB03136313931.java
             type: com.ibm.rational.test.lt.generatedCode
