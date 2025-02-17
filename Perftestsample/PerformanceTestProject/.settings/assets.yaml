@@ -309,7 +309,7 @@ resources:
     resources: 
       - name: VuSchedule.testsuite
         type: com.ibm.rational.test.lt.schedule
-        version: 11.0.2.0
+        version: 11.0.4.0
         properties: 
           description: 'Stages:
 
@@ -338,7 +338,7 @@ User Group 2: Group Size 50.0 percent
     resources: 
       - name: 'Copy of JpetStore.testsuite'
         type: com.ibm.rational.test.lt.test
-        version: 11.0.2.0
+        version: 11.0.4.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -354,7 +354,7 @@ User Group 2: Group Size 50.0 percent
             type: recsessionRecdata
       - name: JpetStore.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 11.0.2.0
+        version: 11.0.4.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
@@ -370,7 +370,7 @@ User Group 2: Group Size 50.0 percent
             type: recsessionRecdata
       - name: PerfTestScript.testsuite
         type: com.ibm.rational.test.lt.test
-        version: 11.0.2.0
+        version: 11.0.4.0
         properties: 
           features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.http'
           type: com.ibm.rational.test.lt.lttest
